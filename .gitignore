@@ -1,0 +1,9 @@
+# Default files and folders ignored in jekyll projects
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# Custom files and folders
+.DS_Store

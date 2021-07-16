@@ -1,0 +1,20 @@
+- category: redstone-api
+  lang: en
+  title: RedStone API
+  pages:
+    - title: Cryptourrency market data API
+      lastmod: 2021-07-16
+      loc: https://p.redstone.finance/crypto-api
+    - title: Api with historical crypto prices
+      lastmod: 2021-07-16
+      loc: https://p.redstone.finance/crypto-historical-prices
+- category: other-links
+  lang: en
+  title: Other pages
+  pages:
+    - title: Mock title 1
+      lastmod: 2021-07-16
+      loc: https://p.redstone.finance
+    - title: Mock title 2
+      lastmod: 2021-07-16
+      loc: https://p.redstone.finance
