@@ -1,9 +1,9 @@
-- name: Ethereum
-  symbol: ETH
-  logo: https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=010
 - name: Bitcoin
   symbol: BTC
   logo: https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=010
+- name: Ethereum
+  symbol: ETH
+  logo: https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=010
 - name: Compound
   symbol: COMP
   logo: https://cryptologos.cc/logos/compound-comp-logo.svg?v=010
@@ -73,19 +73,19 @@
 - name: Ocean Protocol
   symbol: OCEAN
   logo: https://cryptologos.cc/logos/ocean-protocol-ocean-logo.svg?v=010
-- name: LTC
+- name: Litecoin
   symbol: LTC
   logo: https://cryptologos.cc/logos/litecoin-ltc-logo.svg?v=010
-- name: BCH
+- name: Bitcoin Cash
   symbol: BCH
   logo: https://cryptologos.cc/logos/bitcoin-cash-bch-logo.svg?v=010
-- name: XLM
+- name: Stellar
   symbol: XLM
   logo: https://cryptologos.cc/logos/stellar-xlm-logo.svg?v=010
-- name: ATOM
+- name: Cosmos
   symbol: ATOM
   logo: https://cryptologos.cc/logos/cosmos-atom-logo.svg?v=010
-- name: EOS
+- name: Eosio
   symbol: EOS
   logo: https://cryptologos.cc/logos/eos-eos-logo.svg?v=010
 - name: Polygon

@@ -1,32 +1,34 @@
 <section id="available-tokens-section">
-  <h2>
-    {{ layout.availableTokensSection.title }}
-  </h2>
-
-  <div class="subtitle">
-    {{ layout.availableTokensSection.subtitle }}
-  </div>
+  <div class="section-content">
+    <h2>
+      {{ layout.availableTokensSection.title }}
+    </h2>
   
-  <div class="tokens-container">
-    {% for token in site.data.availableCryptoTokens %}
-      {% if forloop.index >= layout.availableTokensSection.tokensLimit %}
-        {% break %}
-      {% endif %}
-      <div class="token-container">
-        <img src="{{ token.logo }}" alt="{{ token.name }}" />
-        <div class="token-name">{{ token.name }}</div>
-        <div class="token-symbol">
-          Symbol: {{ token.symbol }}
+    <div class="subtitle">
+      {{ layout.availableTokensSection.subtitle }}
+    </div>
+    
+    <div class="tokens-container">
+      {% for token in site.data.availableCryptoTokens %}
+        {% if forloop.index >= layout.availableTokensSection.tokensLimit %}
+          {% break %}
+        {% endif %}
+        <div class="token-container">
+          <div class="logo-container">
+            <img src="{{ token.logo }}" alt="{{ token.name }}" />
+          </div>
+          <div class="token-name">{{ token.name }}</div>
+          <div class="token-symbol">
+            Symbol: {{ token.symbol }}
+          </div>
         </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
+  
+    <div class="full-list-link-container">
+      <a class="button outlined" href="#" title="{{ layout.availableTokensSection.fullListLinkText }}">
+        {{ layout.availableTokensSection.fullListLinkText }}
+      </a>
+    </div>
   </div>
-
-  <div class="full-list-link-container">
-    <a href="#" title="{{ layout.availableTokensSection.fullListLinkText }}">
-      {{ layout.availableTokensSection.fullListLinkText }}
-    </a>
-  </div>
-
-  <!-- <a href="#" title="{{}}"></a> -->
 </section>

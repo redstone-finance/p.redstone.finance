@@ -15,6 +15,10 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
 
+    <!-- We load only GTM script here. The rest will be loaded by GTM -->
+    <!-- Learn more: https://marketingplatform.google.com/about/tag-manager -->
+    {% include tracking-codes/gtm-in-head.html %}
+
     <!-- Custom fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -23,8 +27,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- Material design -->
-    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <!-- <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script> -->
 
     <!-- Custom styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -38,33 +42,32 @@
       <link rel="stylesheet" href="/css/{{ page.stylesFile }}">
     {% endif %}
 
-    <!-- We load only GTM script here. The rest will be loaded by GTM -->
-    <!-- Learn more: https://marketingplatform.google.com/about/tag-manager -->
-    {% include tracking-codes/gtm.html %}
-
   </head>
   <body class="mdc-typography notranslate">
+    {% include tracking-codes/gtm-in-body.html %}
 
-  {{ content }}
+    {{ content }}
 
-  <!-- Toastr -->
-  <!-- jQuery is required for Toastr -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script> -->
+    <!-- Toastr -->
+    <!-- jQuery is required for Toastr -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script> -->
 
-  <!-- Axios is used for requests sending -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+    <!-- Axios is used for requests sending -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
 
-  <!-- Nice alerts -->
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Nice alerts -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-  {% if layout.scriptFile %}
-    <script src="/js/{{ layout.scriptFile }}"></script>
-  {% endif %}
+    {% if layout.scriptFile %}
+      <script src="/js/{{ layout.scriptFile }}"></script>
+    {% endif %}
 
-  {% if page.scriptFile %}
-    <script src="/js/{{ page.scriptFile }}"></script>
-  {% endif %}
+    {% if page.scriptFile %}
+      <script src="/js/{{ page.scriptFile }}"></script>
+    {% endif %}
+
+    {% include tawk-to.html %}
 
   </body>
 </html>

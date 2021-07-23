@@ -1,11 +1,13 @@
 <section id="partners-section">
-  <div class="partners-container">
-    {% for partner in layout.patnersSection.partners %}
-      <div class="partner-container">
-        <a href="{{ partner.url }}" title="{{ partner.id }}" class="partner-link">
-          <img src="{{ partner.logo }}" alt="{{ partner.id }}" />
-        </a>
-      </div>
-    {% endfor %}
+  <div class="section-content">
+    <div class="partners-container">
+      {% for partner in layout.patnersSection.partners %}
+        <div class="partner-container">
+          <a href="{{ partner.url }}" title="{{ partner.id }}" class="partner-link">
+            <img src="{{ partner.logo }}" alt="{{ partner.id }}" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>

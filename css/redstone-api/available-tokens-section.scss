@@ -2,26 +2,63 @@
 ---
 
 #available-tokens-section {
+
+  .section-content {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
   .tokens-container {
-    display: grid;
-    grid-template-columns: repeat(10, auto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
 
     .token-container {
       box-shadow: 0 0 1px gray;
       border-radius: 3px;
-      padding: 5px;
-      margin: 10px;
+      padding: 8px;
       font-size: 14px;
+      width: 120px;
+      height: 90px;
+
+      .token-name {
+        width: 90px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
 
       .token-symbol {
-        color: gray;
+        color: var(--secondary-text-color);
         font-size: 12px;
       }
 
-      img {
-        max-height: 30px;
-        max-width: 30px;
+      .logo-container {
+        height: 30px;
+        margin-bottom: 10px;
+
+        img {
+          max-height: 30px;
+          max-width: 30px;
+        }
       }
     }
+  }
+
+  .full-list-link-container {
+    margin-top: 40px;
+    text-align: center;
   }
 }

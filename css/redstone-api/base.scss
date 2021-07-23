@@ -1,29 +1,12 @@
 ---
 ---
 
-:root {
-  --dark-text-color: #24355b;
-}
+@import url("./common.css");
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-section,footer {
-  margin-bottom: 30px;
-  padding: 16px;
-  border-bottom: 1px solid #eee;
-}
-
-ul {
-  list-style-position: inside;
-}
-
+@import url("./navbar.css");
 @import url("./intro-section.css");
 @import url("./partners-section.css");
 @import url("./features-section.css");
 @import url("./available-tokens-section.css");
 @import url("./cta-section.css");
-
 @import url("./footer.css");

@@ -2,13 +2,40 @@
 ---
 
 #features-section {
-  .features-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  background: var(--light-gray-section-bg-color);
 
-    .feature-container {
-      img {
-        width: 50px;
+  .section-content {
+    // h2 {
+    //   margin-bottom: 50px;
+    // }
+
+    padding-bottom: 60px;
+    // border-bottom: 1px solid var(--hr-color);
+
+    .features-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      row-gap: 50px;
+      column-gap: 50px;
+  
+      .feature-container {
+        // border: 1px solid black;
+        text-align: center;
+  
+        img {
+          height: 70px;
+          margin: auto;
+          margin-bottom: 12px;
+          filter: hue-rotate(-75deg) brightness(0.85);
+        }
+
+        h3 {
+          margin-bottom: 8px;
+        }
+  
+        p {
+          color: var(--secondary-text-color);
+        }
       }
     }
   }

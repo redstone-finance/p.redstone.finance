@@ -1,13 +1,15 @@
 <section id="features-section">
-  <h2>Why RedStone API</h2>
+  <div class="section-content">
+    <h2>Why RedStone API</h2>
 
-  <div class="features-container">
-    {% for feature in layout.featuresSection.features %}
-      <div class="feature-container">
-        <img src="{{ feature.icon }}" alt="{{ feature.title }}" />
-        <h3>{{ feature.title }}</h3>
-        <p>{{ feature.description }}</p>
-      </div>
-    {% endfor %}
+    <div class="features-container">
+      {% for feature in layout.featuresSection.features %}
+        <div class="feature-container">
+          <img src="{{ feature.icon }}" alt="{{ feature.title }}" />
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>

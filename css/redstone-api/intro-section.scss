@@ -2,15 +2,55 @@
 ---
 
 #intro-section {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  .section-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
 
-  h1 {
-    font-size: 48px;
-    color: var(--dark-text-color);
-  }
+    height: calc(100vh - var(--navbar-height));
 
-  img {
-    max-width: 300px;
+    .intro-texts {
+      position: relative;
+      bottom: 30px;
+      // border: 1px solid black;
+      h1 {
+        font-size: 58px;
+        line-height: 70px;
+        color: var(--dark-text-color);
+        margin-bottom: 25px;
+      }
+
+      .subtitle {
+        margin-bottom: 35px;
+        ul li {
+          color: var(--secondary-text-color);
+        }
+        
+      }
+
+      .buttons {
+        // .alt-action-link {
+        //   margin-left: 20px;
+        // }
+
+        span {
+          margin-left: 20px;
+          margin-right: 20px;
+          color: var(--secondary-text-color);
+        }
+      }
+
+      
+    }
+
+    .intro-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        // max-width: 400px;
+        max-height: calc(92vh - var(--navbar-height));
+      }
+    }
   }
 }

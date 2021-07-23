@@ -1,16 +1,35 @@
 <section id="intro-section">
-  <div class="intro-texts">
-    <h1>{{ layout.introSection.title }}</h1>
-    <p>
-      {{ layout.introSection.subtitle }}
-    </p>
+  <div class="section-content">
+    <div class="intro-texts">
+      <h1>{{ layout.introSection.title }}</h1>
+      <div class="subtitle">
+        <ul>
+          {% for callout in layout.introSection.callouts %}
+            <li>
+              {{ callout }}
+            </li>
+          {% endfor %}
+        </ul>
+        <!-- {{ layout.introSection.subtitle }} -->
+      </div>
+  
+      <div class="buttons">
+        <a class="button" href="#">
+          {{ layout.introSection.mainButtonText }}
+        </a>
 
-    <div class="buttons">
-      <a href="">Get started</a>
+        <span>
+          or
+        </span>
+
+        <a class="alt-action-link" href="#">
+          {{ layout.introSection.altActionText }}
+        </a>
+      </div>
     </div>
-  </div>
-
-  <div class="intro-image">
-    <img src="/img/tokens.svg" alt="crypto tokens api" />
+  
+    <div class="intro-image">
+      <img src="{{ layout.introSection.introImage }}" alt="crypto tokens api" />
+    </div>
   </div>
 </section>

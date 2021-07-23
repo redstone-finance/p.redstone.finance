@@ -2,15 +2,37 @@
 ---
 
 #cta-section {
+  background: var(--light-gray-section-bg-color);
+
   .options-container {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(2, auto);
+    row-gap: 30px;
+    margin-top: 60px;
+    width: 450px;
+    margin: auto;
 
     .option-container {
+      // border: 1px solid black;
+
+      text-align: center;
+
+      h3 {
+        margin-bottom: 20px;
+        font-weight: normal;
+      }
+
       img {
-        max-width: 100px;
-        max-height: 100px;
+        margin-bottom: 5px;
+        max-height: 50px;
       }
     }
+  }
+
+  .cta-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
   }
 }

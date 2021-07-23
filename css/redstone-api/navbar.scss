@@ -1,0 +1,47 @@
+---
+---
+
+header {
+  position: relative;
+  margin-bottom: 51px;
+
+  .navbar {
+    border-bottom: 1px solid #eee;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--navbar-height);
+    z-index: 10;
+    background: white;
+  
+    .navbar-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2px;
+      height: 100%;
+
+      .logo-container {
+        height: 100%;
+        img {
+          height: 100%;
+          filter: brightness(0) invert(0.2);
+        }
+      }
+
+      .navbar-links {
+        height: 100%;
+        display: inline-flex;
+        align-items: center;
+
+        a {
+          display: inline-block;
+          margin-left: 34px;
+        }
+      }
+  
+    }
+  }
+}

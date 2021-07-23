@@ -1,18 +1,20 @@
 <section id="cta-section">
-  <h2>{{ layout.ctaSection.title }}</h2>
-  <div class="options-container">
-    {% for option in layout.ctaSection.options %}
-      <div class="option-container">
-        <img src="{{ option.icon }}" alt="{{ option.title }}" />
-        <h3>{{ option.title }}</h3>
-        <p>{{ option.description }}</p>
-      </div>
-    {% endfor %}
-  </div>
-
-  <div class="cta-button-container">
-    <a href="#" title="{{ layout.ctaSection.buttonText }}">
-      {{ layout.ctaSection.buttonText }}
-    </a>
+  <div class="section-content">
+    <h2>{{ layout.ctaSection.title }}</h2>
+    <div class="options-container">
+      {% for option in layout.ctaSection.options %}
+        <div class="option-container">
+          <img src="{{ option.icon }}" alt="{{ option.title }}" />
+          <h3>{{ option.title }}</h3>
+          <!-- <p>{{ option.description }}</p> -->
+        </div>
+      {% endfor %}
+    </div>
+  
+    <div class="cta-button-container">
+      <a class="button" href="#" title="{{ layout.ctaSection.buttonText }}">
+        {{ layout.ctaSection.buttonText }}
+      </a>
+    </div>
   </div>
 </section>
