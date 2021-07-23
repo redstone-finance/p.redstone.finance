@@ -1,0 +1,31 @@
+---
+title: Sitemap | p.redstone.finance
+layout: default
+lang: en
+metaDescription: "p.redstone.finance sitemap"
+metaKeywords: "Site map, p.redstone.finance"
+
+stylesFile: sitemap.css
+---
+
+<div id="sitemap-container">
+  <h1>Sitemap</h1>
+
+  {% for category in site.data.pagesStructure %}
+    <div class="category-container">
+      <div class="horizontal-line"></div>
+      <h2>{{ category.title }}</h2>
+      <div class="horizontal-line"></div>
+      <ul>
+        {% for page in category.pages %}
+          <li>
+            <a target="_blank" href="{{ page.loc }}">
+              {{ page.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+
+</div>

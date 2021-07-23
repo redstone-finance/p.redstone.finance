@@ -1,0 +1,15 @@
+---
+---
+
+#features-section {
+  .features-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    .feature-container {
+      img {
+        width: 50px;
+      }
+    }
+  }
+}

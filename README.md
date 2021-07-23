@@ -1,6 +1,7 @@
 # p.redstone.finance
 
-Promotional landing pages for RedStone. Hosted on GitHub Pages.
+Promotional landing pages for RedStone hosted on GitHub Pages.
+Base url: https://p.redstone.finance
 
 ## All pages
 To see the full list of available pages open this link in browser: [p.redstone.finance/sitemap.html](https://p.redstone.finance/sitemap.html).

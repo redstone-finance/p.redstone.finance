@@ -1,0 +1,16 @@
+---
+---
+
+#intro-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  h1 {
+    font-size: 48px;
+    color: var(--dark-text-color);
+  }
+
+  img {
+    max-width: 300px;
+  }
+}

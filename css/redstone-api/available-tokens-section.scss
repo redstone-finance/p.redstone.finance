@@ -1,0 +1,27 @@
+---
+---
+
+#available-tokens-section {
+  .tokens-container {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+
+    .token-container {
+      box-shadow: 0 0 1px gray;
+      border-radius: 3px;
+      padding: 5px;
+      margin: 10px;
+      font-size: 14px;
+
+      .token-symbol {
+        color: gray;
+        font-size: 12px;
+      }
+
+      img {
+        max-height: 30px;
+        max-width: 30px;
+      }
+    }
+  }
+}

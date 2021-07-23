@@ -3,14 +3,12 @@ layout: default
 stylesFile: redstone-api/base.css
 ---
 
-<h1>RedStone API</h1>
+<main>
+  {% include redstone-api/intro-section.html %}
+  {% include redstone-api/partners-section.html %}
+  {% include redstone-api/features-section.html %}
+  {% include redstone-api/available-tokens-section.html %}
+  {% include redstone-api/cta-section.html %}
+</main>
 
-<p>Hehe</p>
-
-<p>Haha</p>
-
-<p>Hoho</p>
-
-<div class="main-content">
-  {{ content }}
-</div>
+{% include redstone-api/footer.html %}

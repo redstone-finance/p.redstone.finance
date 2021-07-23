@@ -1,0 +1,17 @@
+---
+---
+
+#partners-section {
+  .partners-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .partner-container {
+      img {
+        width: 100px;
+      }
+    }
+  }
+}
