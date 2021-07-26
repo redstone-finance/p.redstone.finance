@@ -45,3 +45,27 @@ header {
     }
   }
 }
+
+// Non-desktop styles
+@media screen and (max-width: 1023px) {
+  header {
+    .navbar {
+      .navbar-content {
+        .logo-container {
+          img {
+            max-width: 35vw;
+          }
+        }
+
+        .navbar-links {
+          :not(.button) {
+            display: none;
+          }
+          a {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}

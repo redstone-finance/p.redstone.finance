@@ -15,8 +15,9 @@
 - Create a page with list of all supported tokens - DONE
 - Set up all links - DONE
 - Create a version with red colors - DONE
-- Add lazy loading to all images
-- Fix styles for mobile version
+- Add lazy loading to all images - DONE
+- Set up animated scrolling - DONE
+- Fix styles for mobile version - DONE
 
 - Configure GTM
   - Connect hotjat
