@@ -13,7 +13,7 @@
         {% if forloop.index >= layout.availableTokensSection.tokensLimit %}
           {% break %}
         {% endif %}
-        <div class="token-container">
+        <a href="#cta-section" class="token-container">
           <div class="logo-container">
             <img src="{{ token.logo }}" alt="{{ token.name }}" />
           </div>
@@ -21,12 +21,18 @@
           <div class="token-symbol">
             Symbol: {{ token.symbol }}
           </div>
-        </div>
+        </a>
       {% endfor %}
     </div>
   
     <div class="full-list-link-container">
-      <a class="button outlined" href="#" title="{{ layout.availableTokensSection.fullListLinkText }}">
+      <a
+        class="button outlined"
+        target="_blank"
+        rel="noindex, nofollow, noopener"
+        href="{{ layout.availableTokensSection.fullListLinkHref }}"
+        title="{{ layout.availableTokensSection.fullListLinkText }}"
+      >
         {{ layout.availableTokensSection.fullListLinkText }}
       </a>
     </div>

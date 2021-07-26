@@ -1,0 +1,59 @@
+---
+title: Supported currencies | RedStone API
+layout: default
+lang: en
+metaDescription: "Supported cryptocurrencies for RedStone API"
+metaKeywords: "Supported cryptocurrencies, RedStone"
+
+permalink: /supported-currencies
+---
+
+<link href="/libs/jsonTree/jsonTree.css" rel="stylesheet" />
+<script src="/libs/jsonTree/jsonTree.js"></script>
+
+<style>
+  * {
+    font-family: Poppins, "Open Sans", -apple-system, system-ui, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  h1#title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 0 !important;
+  }
+
+  p {
+    text-align: center;
+    color: #777;
+    margin-top: 8px;
+  }
+</style>
+
+<h1 id="title">
+  Supported crypto & fiat currencies
+</h1>
+<p>by RedStone Api</p>
+
+<div style="font-family: monospace;" id="wrapper"></div>
+
+<script>
+  // Get DOM-element for inserting json-tree
+  var wrapper = document.getElementById("wrapper");
+
+  try {
+    var data = JSON.parse(`{{ site.data.supportedTokens | jsonify }}`);
+  } catch (e) {}
+
+  // Create json-tree
+  var tree = jsonTree.create(data, wrapper);
+
+  // Expand all (or selected) child nodes of root (optional)
+  tree.expand(function(node) {
+    return node.childNodes.length < 1 || node.label === 'phoneNumbers';
+  });
+</script>

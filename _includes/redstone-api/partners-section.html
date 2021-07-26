@@ -3,9 +3,11 @@
     <div class="partners-container">
       {% for partner in layout.patnersSection.partners %}
         <div class="partner-container">
-          <a href="{{ partner.url }}" title="{{ partner.id }}" class="partner-link">
+          <div class="partner-link">
+          <!-- <a href="{{ partner.url }}" title="{{ partner.id }}" class="partner-link"> -->
             <img src="{{ partner.logo }}" alt="{{ partner.id }}" />
-          </a>
+          <!-- </a> -->
+          </div>
         </div>
       {% endfor %}
     </div>

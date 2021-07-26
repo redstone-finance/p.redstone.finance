@@ -1,10 +1,17 @@
 ---
 ---
 
-* {
-  background: rgb(240, 179, 179);
+h1 {
+  text-align: center;
+}
 
-  a {
-    color: green;
+.category-container {
+  border-top: 1px solid #eee;
+  max-width: 800px;
+  padding: 16px;
+  margin: auto;
+
+  &:last-of-type {
+    border-bottom: 1px solid #eee;
   }
 }

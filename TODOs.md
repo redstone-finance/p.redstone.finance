@@ -10,10 +10,11 @@
   - partners - DONE
   - features - DONE
   - available tokens - DONE
-  - cta
-  - footer
-- Create a page with list of all supported tokens
-- Set up all links
+  - cta - DONE
+  - footer - DONE
+- Create a page with list of all supported tokens - DONE
+- Set up all links - DONE
+- Create a version with red colors
 - Fix styles for mobile version
 - Add lazy loading to all images
 

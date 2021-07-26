@@ -25,13 +25,23 @@
     row-gap: 20px;
     column-gap: 20px;
 
-    .token-container {
-      box-shadow: 0 0 1px gray;
+    a.token-container {
+      // box-shadow: 0 0 1px gray;
+      border: 1px solid #eee;
       border-radius: 3px;
-      padding: 8px;
+      padding: 10px;
       font-size: 14px;
       width: 120px;
-      height: 90px;
+      height: 96px;
+      text-decoration: none;
+      background: white;
+      
+      transition: all 0.4s ease;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+      }
 
       .token-name {
         width: 90px;
