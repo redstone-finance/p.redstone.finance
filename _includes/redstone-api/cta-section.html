@@ -4,7 +4,7 @@
     <div class="options-container">
       {% for option in layout.ctaSection.options %}
         <div class="option-container">
-          <img src="{{ option.icon }}" alt="{{ option.title }}" />
+          <img src="{{ option.icon }}" alt="{{ option.title }}" loading="lazy" />
           <h3>{{ option.title }}</h3>
           <!-- <p>{{ option.description }}</p> -->
         </div>

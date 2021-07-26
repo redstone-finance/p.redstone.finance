@@ -26,6 +26,15 @@
   color: var(--dark-text-color);
 }
 
+// Nice animated scrolling for anchor links
+html {
+  scroll-behavior: smooth;
+
+  section {
+    scroll-margin-top: 50px;
+  }
+}
+
 ul {
   list-style-position: inside;
 }

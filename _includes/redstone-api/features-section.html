@@ -5,7 +5,7 @@
     <div class="features-container">
       {% for feature in layout.featuresSection.features %}
         <div class="feature-container">
-          <img src="{{ feature.icon }}" alt="{{ feature.title }}" />
+          <img src="{{ feature.icon }}" alt="{{ feature.title }}" loading="lazy" />
           <h3>{{ feature.title }}</h3>
           <p>{{ feature.description }}</p>
         </div>

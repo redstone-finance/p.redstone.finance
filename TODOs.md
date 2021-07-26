@@ -14,9 +14,9 @@
   - footer - DONE
 - Create a page with list of all supported tokens - DONE
 - Set up all links - DONE
-- Create a version with red colors
-- Fix styles for mobile version
+- Create a version with red colors - DONE
 - Add lazy loading to all images
+- Fix styles for mobile version
 
 - Configure GTM
   - Connect hotjat
