@@ -18,6 +18,7 @@
 - Add lazy loading to all images - DONE
 - Set up animated scrolling - DONE
 - Fix styles for mobile version - DONE
+- Fix image size on Safari
 
 - Configure GTM
   - Connect hotjat

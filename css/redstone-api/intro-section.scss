@@ -43,8 +43,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
+      top: 30px;
       img {
-        max-height: calc(92vh - var(--navbar-height));
+        height: calc(85vh - var(--navbar-height));
       }
     }
   }

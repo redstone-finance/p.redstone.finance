@@ -10,7 +10,7 @@
     
     <div class="tokens-container">
       {% for token in site.data.availableCryptoTokens %}
-        {% if forloop.index >= layout.availableTokensSection.tokensLimit %}
+        {% if forloop.index > layout.availableTokensSection.tokensLimit %}
           {% break %}
         {% endif %}
         <a href="#cta-section" class="token-container">
