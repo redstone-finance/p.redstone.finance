@@ -1,17 +1,17 @@
 <!doctype html>
-<html lang="{{ page.lang }}">
+<html lang="{{ layout.lang }}">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="{{ page.metaDescription }}">
-    <meta name="keywords" content="{{ page.metaKeywords }}" />
+    <meta name="description" content="{{ layout.metaDescription }}">
+    <meta name="keywords" content="{{ layout.metaKeywords }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:title" content="{{ page.ogTitle }}">
-    <meta property="og:description" content="{{ page.ogDescription }}">
-    <meta property="og:image" content="{{ page.ogImage }}">
-    <meta property="og:url" content="{{ page.ogUrl }}">
+    <meta property="og:title" content="{{ layout.ogTitle }}">
+    <meta property="og:description" content="{{ layout.ogDescription }}">
+    <meta property="og:image" content="{{ layout.ogImage }}">
+    <meta property="og:url" content="{{ layout.ogUrl }}">
 
-    <title>{{ page.title }}</title>
+    <title>{{ layout.title }}</title>
 
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
 
@@ -41,8 +41,8 @@
       <link rel="stylesheet" href="/css/{{ layout.stylesFile }}">
     {% endif %}
 
-    {% if page.stylesFile %}
-      <link rel="stylesheet" href="/css/{{ page.stylesFile }}">
+    {% if layout.stylesFile %}
+      <link rel="stylesheet" href="/css/{{ layout.stylesFile }}">
     {% endif %}
 
   </head>
@@ -66,8 +66,8 @@
       <script src="/js/{{ layout.scriptFile }}"></script>
     {% endif %}
 
-    {% if page.scriptFile %}
-      <script src="/js/{{ page.scriptFile }}"></script>
+    {% if layout.scriptFile %}
+      <script src="/js/{{ layout.scriptFile }}"></script>
     {% endif %}
 
     {% include tawk-to.html %}

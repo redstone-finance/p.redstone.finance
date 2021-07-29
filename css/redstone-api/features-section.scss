@@ -35,7 +35,20 @@
   
         p {
           color: var(--secondary-text-color);
+          max-width: 300px;
+          margin: auto;
         }
+      }
+    }
+  }
+}
+
+// Small desktops
+@media screen and (max-width: 1250px) {
+  #features-section {
+    .section-content {
+      .features-container {
+        grid-template-columns: auto auto;
       }
     }
   }
