@@ -5,19 +5,28 @@
     - title: Cryptourrency market data API
       lastmod: 2021-07-16
       loc: https://p.redstone.finance/crypto-api
-    - title: Cryptourrency market data API (red)
-      lastmod: 2021-07-26
-      loc: https://p.redstone.finance/crypto-api-red
-    - title: Api with historical crypto prices
-      lastmod: 2021-07-16
-      loc: https://p.redstone.finance/crypto-historical-prices
+    - title: Cryptourrency market data API (few tokens, with partner logos)
+      lastmod: 2021-07-29
+      loc: https://p.redstone.finance/crypto-api-few-tokens-with-partner-logos
+    - title: Cryptourrency market data API (few tokens, with partner logos)
+      lastmod: 2021-07-29
+      loc: https://p.redstone.finance/crypto-api-few-tokens-without-partner-logos
+    - title: Cryptourrency market data API (few tokens, without partner logos)
+      lastmod: 2021-07-29
+      loc: https://p.redstone.finance/crypto-api-many-tokens-with-partner-logos
+    - title: Cryptourrency market data API (many tokens, with partner logos)
+      lastmod: 2021-07-29
+      loc: https://p.redstone.finance/crypto-api-many-tokens-without-partner-logos
+    - title: Cryptourrency market data API (many tokens, without partner logos)
+      lastmod: 2021-07-29
+      loc: https://p.redstone.finance/crypto-api-few-tokens-with-partner-logos
 - category: other-links
   lang: en
   title: Other pages
   pages:
-    - title: Mock title 1
-      lastmod: 2021-07-16
+    - title: RedStone ladning for evangelists
+      lastmod: 2021-07-29
       loc: https://p.redstone.finance
-    - title: Mock title 2
-      lastmod: 2021-07-16
+    - title: RedStone ladning for providers
+      lastmod: 2021-07-29
       loc: https://p.redstone.finance

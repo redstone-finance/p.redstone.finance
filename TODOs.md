@@ -18,10 +18,10 @@
 - Add lazy loading to all images - DONE
 - Set up animated scrolling - DONE
 - Fix styles for mobile version - DONE
-- Fix image size on Safari
+- Fix image size on Safari - DONE
 
 - Configure GTM
-  - Connect hotjat
+  - Connect hotjat - DONE
   - Connect analytics
   - Connect amplitude
   - Connect tawk.to chat
