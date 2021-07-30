@@ -2,22 +2,22 @@
   lang: en
   title: RedStone API
   pages:
-    - title: Cryptourrency market data API
+    - title: Crypto API (base version)
       lastmod: 2021-07-16
       loc: https://p.redstone.finance/crypto-api
-    - title: Cryptourrency market data API (few tokens, with partner logos)
+    - title: Crypto API (few tokens, with partner logos)
       lastmod: 2021-07-29
       loc: https://p.redstone.finance/crypto-api-few-tokens-with-partner-logos
-    - title: Cryptourrency market data API (few tokens, with partner logos)
+    - title: Crypto API (few tokens, with partner logos)
       lastmod: 2021-07-29
       loc: https://p.redstone.finance/crypto-api-few-tokens-without-partner-logos
-    - title: Cryptourrency market data API (few tokens, without partner logos)
+    - title: Crypto API (few tokens, without partner logos)
       lastmod: 2021-07-29
       loc: https://p.redstone.finance/crypto-api-many-tokens-with-partner-logos
-    - title: Cryptourrency market data API (many tokens, with partner logos)
+    - title: Crypto API (many tokens, with partner logos)
       lastmod: 2021-07-29
       loc: https://p.redstone.finance/crypto-api-many-tokens-without-partner-logos
-    - title: Cryptourrency market data API (many tokens, without partner logos)
+    - title: Crypto API (many tokens, without partner logos)
       lastmod: 2021-07-29
       loc: https://p.redstone.finance/crypto-api-few-tokens-with-partner-logos
 - category: other-links

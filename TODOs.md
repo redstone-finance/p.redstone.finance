@@ -20,11 +20,13 @@
 - Fix styles for mobile version - DONE
 - Fix image size on Safari - DONE
 
+- Connect tawk.to chat - DONE
+
 - Configure GTM
   - Connect hotjat - DONE
-  - Connect analytics
+  - Connect analytics - DONE
   - Connect amplitude
-  - Connect tawk.to chat
+  
   - Save events
     - Scroll progress events
     - Button clicks

@@ -4,66 +4,105 @@
 - name: Ethereum
   symbol: ETH
   logo: https://cryptologos.cc/logos/ethereum-eth-logo.svg
+- name: Tether
+  symbol: USDT
+  logo: https://cryptologos.cc/logos/tether-usdt-logo.svg
 - name: Binance Coin
   symbol: BNB
   logo: https://cryptologos.cc/logos/binance-coin-bnb-logo.svg
+- name: ADA
+  symbol: ADA
+  logo: https://cryptologos.cc/logos/cardano-ada-logo.svg
 - name: XRP
   symbol: XRP
   logo: https://cryptologos.cc/logos/xrp-xrp-logo.svg
+- name: USD Coin
+  symbol: USDC
+  logo: https://cryptologos.cc/logos/usd-coin-usdc-logo.svg
 - name: DOGE
   symbol: DOGE
   logo: https://cryptologos.cc/logos/dogecoin-doge-logo.svg
+- name: DOT
+  symbol: DOT
+  logo: https://cryptologos.cc/logos/polkadot-new-dot-logo.svg
 - name: Binance USD
   symbol: BUSD
   logo: https://cryptologos.cc/logos/binance-usd-busd-logo.svg
+- name: Uniswap
+  symbol: UNI
+  logo: https://cryptologos.cc/logos/uniswap-uni-logo.svg
 - name: Bitcoin Cash
   symbol: BCH
   logo: https://cryptologos.cc/logos/bitcoin-cash-bch-logo.svg
+- name: Litecoin
+  symbol: LTC
+  logo: https://cryptologos.cc/logos/litecoin-ltc-logo.svg
 - name: Chainlink
   symbol: LINK
   logo: https://cryptologos.cc/logos/chainlink-link-logo.svg
+- name: SOL
+  symbol: SOL
+  logo: https://cryptologos.cc/logos/solana-sol-logo.svg
 - name: Wrapped Bitcoin
   symbol: WBTC
   logo: https://cryptologos.cc/logos/wrapped-bitcoin-wbtc-logo.svg
+- name: Polygon
+  symbol: MATIC
+  logo: https://cryptologos.cc/logos/polygon-matic-logo.svg
 - name: Stellar
   symbol: XLM
   logo: https://cryptologos.cc/logos/stellar-xlm-logo.svg
+- name: ETC
+  symbol: ETC
+  logo: https://cryptologos.cc/logos/ethereum-classic-etc-logo.svg
+- name: THETA
+  symbol: THETA
+  logo: https://cryptologos.cc/logos/theta-theta-logo.svg
+- name: Dai
+  symbol: DAI
+  logo: https://cryptologos.cc/logos/dai-dai-logo.svg
+- name: VET
+  symbol: VET
+  logo: https://cryptologos.cc/logos/vechain-vet-logo.svg
+- name: Wrapped Terra
+  symbol: LUNA
+  logo: https://cryptologos.cc/logos/terra-luna-luna-logo.svg
+- name: FIL
+  symbol: FIL
+  logo: https://cryptologos.cc/logos/filecoin-fil-logo.svg
+- name: XMR
+  symbol: XMR
+  logo: https://cryptologos.cc/logos/monero-xmr-logo.svg
+- name: TRX
+  symbol: TRX
+  logo: https://cryptologos.cc/logos/tron-trx-logo.svg
+- name: Aave
+  symbol: AAVE
+  logo: https://cryptologos.cc/logos/aave-aave-logo.svg
+- name: Eosio
+  symbol: EOS
+  logo: https://cryptologos.cc/logos/eos-eos-logo.svg
 - name: Compound
   symbol: COMP
   logo: https://cryptologos.cc/logos/compound-comp-logo.svg
 - name: Maker
   symbol: MKR
   logo: https://cryptologos.cc/logos/maker-mkr-logo.svg
-- name: Uniswap
-  symbol: UNI
-  logo: https://cryptologos.cc/logos/uniswap-uni-logo.svg
-- name: Tether
-  symbol: USDT
-  logo: https://cryptologos.cc/logos/tether-usdt-logo.svg
 - name: Sushiswap
   symbol: SUSHI
   logo: https://cryptologos.cc/logos/sushiswap-sushi-logo.svg
 - name: Arweave
   symbol: AR
   logo: https://cryptologos.cc/logos/arweave-ar-logo.svg
-- name: USD Coin
-  symbol: USDC
-  logo: https://cryptologos.cc/logos/usd-coin-usdc-logo.svg
 - name: Synthetix Network Token
   symbol: SNX
   logo: https://cryptologos.cc/logos/synthetix-network-token-snx-logo.svg
 - name: Basic Attention Token
   symbol: BAT
   logo: https://cryptologos.cc/logos/basic-attention-token-bat-logo.svg
-- name: Dai
-  symbol: DAI
-  logo: https://cryptologos.cc/logos/dai-dai-logo.svg
 - name: Yearn Finance
   symbol: YFI
   logo: https://cryptologos.cc/logos/yearn-finance-yfi-logo.svg
-- name: Aave
-  symbol: AAVE
-  logo: https://cryptologos.cc/logos/aave-aave-logo.svg
 - name: REN
   symbol: REN
   logo: https://cryptologos.cc/logos/ren-ren-logo.svg
@@ -91,18 +130,9 @@
 - name: Ocean Protocol
   symbol: OCEAN
   logo: https://cryptologos.cc/logos/ocean-protocol-ocean-logo.svg
-- name: Litecoin
-  symbol: LTC
-  logo: https://cryptologos.cc/logos/litecoin-ltc-logo.svg
 - name: Cosmos
   symbol: ATOM
   logo: https://cryptologos.cc/logos/cosmos-atom-logo.svg
-- name: Eosio
-  symbol: EOS
-  logo: https://cryptologos.cc/logos/eos-eos-logo.svg
-- name: Polygon
-  symbol: MATIC
-  logo: https://cryptologos.cc/logos/polygon-matic-logo.svg
 - name: Quant
   symbol: QNT
   logo: https://cryptologos.cc/logos/quant-qnt-logo.svg
@@ -166,54 +196,30 @@
 - name: Perpetual Protocol
   symbol: PERP
   logo: https://assets.coingecko.com/coins/images/12381/thumb/token_2000x2000.png?1615791204
-- name: ADA
-  symbol: ADA
-  logo: https://cryptologos.cc/logos/cardano-ada-logo.svg
-- name: DOT
-  symbol: DOT
-  logo: https://cryptologos.cc/logos/polkadot-new-dot-logo.svg
 - name: OKB
   symbol: OKB
   logo: https://cryptologos.cc/logos/okb-okb-logo.svg
 - name: XEM
   symbol: XEM
   logo: https://cryptologos.cc/logos/nem-xem-logo.svg
-- name: SOL
-  symbol: SOL
-  logo: https://cryptologos.cc/logos/solana-sol-logo.svg
 - name: Crypto com Coin
   symbol: CRO
   logo: https://cryptologos.cc/logos/crown-crw-logo.svg
-- name: XMR
-  symbol: XMR
-  logo: https://cryptologos.cc/logos/monero-xmr-logo.svg
 - name: BSV
   symbol: BSV
   logo: https://cryptologos.cc/logos/bitcoin-sv-bsv-logo.svg
-- name: TRX
-  symbol: TRX
-  logo: https://cryptologos.cc/logos/tron-trx-logo.svg
 - name: Huobi Token
   symbol: HT
   logo: https://cryptologos.cc/logos/huobi-token-ht-logo.svg
 - name: MIOTA
   symbol: MIOTA
   logo: https://cryptologos.cc/logos/iota-miota-logo.svg
-- name: THETA
-  symbol: THETA
-  logo: https://cryptologos.cc/logos/theta-theta-logo.svg
 - name: NEO
   symbol: NEO
   logo: https://cryptologos.cc/logos/neo-neo-logo.svg
-- name: Wrapped Terra
-  symbol: LUNA
-  logo: https://cryptologos.cc/logos/terra-luna-luna-logo.svg
 - name: XTZ
   symbol: XTZ
   logo: https://cryptologos.cc/logos/tezos-xtz-logo.svg
-- name: VET
-  symbol: VET
-  logo: https://cryptologos.cc/logos/vechain-vet-logo.svg
 - name: FTX Token
   symbol: FTT
   logo: https://cryptologos.cc/logos/ftx-token-ftt-logo.svg
@@ -232,9 +238,6 @@
 - name: EGLD
   symbol: EGLD
   logo: https://cryptologos.cc/logos/elrond-egld-egld-logo.svg
-- name: FIL
-  symbol: FIL
-  logo: https://cryptologos.cc/logos/filecoin-fil-logo.svg
 - name: Fantom
   symbol: FTM
   logo: https://cryptologos.cc/logos/fantom-ftm-logo.svg
@@ -262,9 +265,6 @@
 - name: ZIL
   symbol: ZIL
   logo: https://cryptologos.cc/logos/zilliqa-zil-logo.svg
-- name: ETC
-  symbol: ETC
-  logo: https://cryptologos.cc/logos/ethereum-classic-etc-logo.svg
 - name: NEXO
   symbol: NEXO
   logo: https://cryptologos.cc/logos/nexo-nexo-logo.svg
