@@ -13,7 +13,7 @@
         {% if forloop.index > layout.availableTokensSection.tokensLimit %}
           {% break %}
         {% endif %}
-        <a href="#cta-section" class="token-container">
+        <a id="{{ token.symbol | slugify }}-card" href="#cta-section" class="token-container">
           <div class="logo-container">
             <img loading="lazy" src="{{ token.logo }}" alt="{{ token.name }}" />
           </div>
@@ -27,6 +27,7 @@
   
     <div class="full-list-link-container">
       <a
+        id="full-token-list-button"
         class="button outlined"
         target="_blank"
         rel="noindex, nofollow, noopener"
