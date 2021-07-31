@@ -23,3 +23,6 @@ After running the following command the website should be served at `http://loca
 ```sh
 bundle exec jekyll serve --host 0.0.0.0
 ```
+
+## Ads
+- [Great url builder for UTM tags](https://ga-dev-tools.web.app/ga4/campaign-url-builder/)

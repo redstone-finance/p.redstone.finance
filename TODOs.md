@@ -22,16 +22,16 @@
 
 - Connect tawk.to chat - DONE
 
-- Configure GTM
+- Configure GTM - DONE
   - Connect hotjat - DONE
   - Connect analytics - DONE
-  - Connect amplitude
+  - Connect amplitude - DONE
   
-  - Save events
-    - Scroll progress events
-    - Button clicks
+  - Save events - DONE
+    - Scroll progress events - DONE
+    - Button clicks - DONE
 
-- Test integration with analytical service
+- Test integration with analytical service - DONE
 
 - Set up AB tests
   - Create another version of landing page (with the accent on free of charge)
